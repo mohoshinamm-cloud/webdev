@@ -1,0 +1,40 @@
+*{
+    max-width: 1200px;
+    margin: auto;
+}  
+        
+.navCtl{
+            display: flex;
+            justify-content: space-between;
+             align-items: center ;
+            margin-top: 50px;
+        }
+
+        .test{
+            display: flex;
+            gap: 24px;
+        }
+
+        .navCtl>nav>ul>li {
+            list-style: none;
+        }
+       
+        .hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("./assets/banner.jpg");
+        }
+
+         .hero>.btnct2{
+            color: white;
+            background: #1D4ED8;
+            border: none;
+            padding: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 8px;
+        }

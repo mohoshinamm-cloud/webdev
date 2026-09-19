@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <style>
+        .t{
+            color: red;
+        }
+    
+        .navCtl{
+            display: flex;
+            justify-content: space-between;
+            align-items: center ;
+            margin-top: 50px;
+        }
+
+        .test{
+            display: flex;
+            gap: 24px;
+        }
+
+        .navCtl>nav>ul>li {
+            list-style: none;
+        }
+        .btnCtl{
+            color: white;
+            background: #1D4ED8;
+            border: none;
+            padding: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 8px;
+        }
+                .hero{
+                    padding: 80px;
+            /* height: 400px; */
+                    display: flex;
+            flex-direction: column;
+            /* justify-content: center;
+            align-items: center; */
+            background-image: url("./banner.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <main>
+        <!-- Hero selection -->
+        </main>
+        <div class="navCtl">
+            <div>
+                <img src="../assets/assets/logo.png" alt="">
+            </div>
+            <nav>
+                <ul class="test">
+                    <li>Speakers</li>
+                    <li>Schedule</li>
+                    <li>Tracks</li>
+                    <li>Venue</li>
+                    <li>Blog</li>
+                </ul>
+            </nav>
+            <div>
+                <button class="btnCtl">
+                    Register now
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h3 class=textcolor style="font-size: 60px; color: aliceblue;">Code.Connect.Create</h3>
+            <p class=textcolor style="text-align: center;"> Join 4,000+ engineers,</p>
+            <button class="btnct2" style="margin-top: 200px;">Register Now </button>
+            
+    
+        </section>
+         <!-- card section -->
+        <section class="grid grid-cols-2">
+            <div>
+                <img src="../assets/assets/andrej.png" alt="">
+                <p>Ai/Ml</p>
+                <h3>Andrej Bhai</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="../assets/assets/mustafa.png" alt="">
+                <p>Ai/Ml</p>
+                <h3>Andrej Bhai</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="../assets/assets/demis.png" alt="">
+                <p>Ai/Ml</p>
+                <h3>Andrej Bhai</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="../assets/assets/gary.png" alt="">
+                <p>Ai/Ml</p>
+                <h3>Andrej Bhai</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
